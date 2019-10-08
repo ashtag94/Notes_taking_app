@@ -22,11 +22,11 @@ $(document).ready(function(){
     $('li').on('click', function(){
         var item = $(this).text().replace(/ /g, "-");
         // var item = $(this).text();
-        // var todo = {item: item.val()};
+        // var todo = {item: $(this).text()};
         $.ajax({
           type: 'DELETE',
           url: '/' + item,
-        //   data: todo,
+          // data: todo,
           success: function(data){
             //do something with the data via front-end framework
             location.reload();

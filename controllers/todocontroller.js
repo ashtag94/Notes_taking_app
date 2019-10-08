@@ -20,7 +20,7 @@ module.exports = function(app){
         Todo.find({},function(err,data){
             if (err) throw err;
             res.render('index',{todo_list : data});
-            console.log(`GET request handled with data :${data}`);
+            // console.log(`GET request handled with data :${data}`);
         });
     });
 
@@ -48,7 +48,7 @@ module.exports = function(app){
     });
 
     app.delete('/:item',function(req,res){
-        console.log(`remove requested ${req.param.item}`);
+        // console.log(`remove requested ${req}`);
         Todo.find({item: req.params.item.replace(/\-/g," ")}).remove(function(err,data){
             if (err) throw err;
             res.json(data);
