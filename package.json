@@ -4,7 +4,7 @@
   "description": "this app is used for taking notes. Functionalities include note addition and deletion",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vaibhav Kewlani",
