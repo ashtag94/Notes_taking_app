@@ -7,7 +7,7 @@ $(document).ready(function(){
   
         $.ajax({
           type: 'POST',
-          url: '/',
+          url: '/dashboard',
           data: todo,
           success: function(data){
             //do something with the data via front-end framework
@@ -25,7 +25,7 @@ $(document).ready(function(){
         // var todo = {item: $(this).text()};
         $.ajax({
           type: 'DELETE',
-          url: '/' + item,
+          url: '/dashboard/' + item,
           // data: todo,
           success: function(data){
             //do something with the data via front-end framework
