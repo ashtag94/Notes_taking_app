@@ -53,7 +53,7 @@ app.use('/users',require('./routes/users'));
 
 
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 5000;
 
 app.listen(PORT,'0.0.0.0',function(){
     console.log(`listening to port ${PORT}`);
