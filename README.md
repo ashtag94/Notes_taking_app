@@ -9,6 +9,6 @@ Heroku Link = [Visit API on Heroku](https://lit-castle-97985.herokuapp.com/)
 
 
 Features :-
-- **Passport Authentification** :- It uses Passport package for Authentification of password
-- **Protected Dashboad**:- User need to be logged in to get to dashboard route.
+- **Passport Authentication** :- It uses Passport package for Authentication of password
+- **Protected Dashboard**:- User need to be logged in to get to dashboard route.
 - **Saves Encrypted Passwords** :- Uses bcypt package to store encrypted passwords for the user.
