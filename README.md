@@ -3,7 +3,7 @@
 This is first version of Notes taking API
 
 What the api does? 
-- it simply is used to display notes. Similar design can be used to display movie list, product list etc with images.
+- It simply is used to display notes. Similar design can be used to display movie list, product list etc with images.
 
 Heroku Link = [Visit API on Heroku](https://lit-castle-97985.herokuapp.com/)
 
